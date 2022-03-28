@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     // www.ibm.ro : -> error
-    // www.ibm.ro/users -> hit on this controller
+    // www.ibm.ro/users -> hit on this controller with default mapping
     // www.ibm.ro/users/x
     @GetMapping()
     public String get(){
